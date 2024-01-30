@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -161,12 +165,12 @@ h1 {
 
 .bulletpoints {
   display: flex;
-  margin-top: 70px;
+  margin-top: 140px;
   gap: 150px;
   font-size: 20px;
   margin-left: 17%;
   margin-right: 17%;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
   
   width: 100%;
 }
@@ -181,6 +185,39 @@ h1 {
   gap: 0px;
 }
 
-.section3 img {
-  width: 300px;
+
+
+.section3txt h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.section3txt p {
+  font-size: 20px;
+}
+
+.section4 h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  padding-top: 35px;
+}
+
+.section4 img {
+  margin-left: 15.3%;
+  margin-right: 17%;
+  display: flex;
+  
+}
+
+.section5 h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  padding-top: 70px;
 }
