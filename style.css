@@ -235,9 +235,7 @@ footer {
   gap: 1.5rem;
 }
 
-#footer_disclaimer p {
-  color: var(--color-neutral-30);
-}
+
 
 #footer_copyright {
   display: flex;
@@ -248,14 +246,14 @@ footer {
   font-weight: 100;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   #footer_content {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 }
 
-@media screen and (max-width: 426px) {
+@media (max-width: 426px) {
   #footer_content {
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
